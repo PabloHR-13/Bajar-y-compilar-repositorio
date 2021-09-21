@@ -2,7 +2,7 @@
 FROM maven:3.8.1-adoptopenjdk-15
 
 #Copia del repositorio del proyecto
-RUN git clone http://rafaelortega:rafabosonit@192.168.10.210/staffit/backend.git
+RUN git clone http://*your repository*
 
 #Crea una carpeta para el volumen (persistencia de datos)
 
